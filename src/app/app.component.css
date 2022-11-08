@@ -1,0 +1,44 @@
+.container input{
+    background: black;
+    color: aqua;
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+    border: 1px dashed white;
+    margin: 2px;
+    font-size: xx-large;
+    transition: 0.3s;
+
+}
+
+.container input:hover{
+    color: aqua;
+    font-weight: bold;
+}
+
+.full{
+    margin: 2px;
+    padding: 12px;
+    border-radius: 20px;
+    background: linear-gradient(to right, #1d1b1d, rgb(19, 130, 182));
+    transition: 0.8s;
+}
+.full:hover{
+    box-shadow: 2px 2px 2px aquamarine;
+}
+input[type="text"]{
+    color: wheat;
+    text-align: right;
+}
+.scroll{
+    height: 250px;
+    max-height: 250px;
+    overflow-y:auto ;
+}
+.card{
+    margin-top: 22px;
+    background-color: black;
+}
+.card-title{
+    padding: 15px;
+}
